@@ -5,29 +5,38 @@
 - [Configuración general](#configuración-general)
 - [Extenciones](#extenciones)
 - [Custom Shortcuts](#custom-shortcuts)
-- [Snippers](#snippers)
+- [Snippets](#snippets)
 
 <hr />
 
 ## Configuración general
 
 **Theme Color:**
-- *Extención*: [One Dark Pro]()
+- *Extención*: One Dark Pro
 - *Theme*: One Dark Pro Darker
 
 **Icons Pack:** 
-- *Extención*: [Symbol Icons]()
+- *Extención*: Symbol Icons
 
 **VSCode Icons:**
-- *Extención*: [Fluent Icons]()
+- *Extención*: Fluent Icons
 
+**Tipo de letra**
+La fuente es [Cascadia Code](https://github.com/microsoft/cascadia-code). Se instala globalmente en el sistema operativo y en el archivo `settings.json` agregar el tipo de letra `Cascadia Code PL` y activar las ligaduras.
+
+```json
+// ...,
+"editor.fontFamily": "'Cascadia Code PL', 'Droid Sans Mono', 'monospace', monospace",
+"editor.fontLigatures": true,
+// ...
+```
 
 [Índice☝](#índice)
 <hr />
 
 ## Extenciones
 
-| Type      | Name Extension |   Extension Id     |
+| Type      | Name Extension             |   Extension Id                      |
 | --------- | -------------------------- | ----------------------------------- |
 | Tools     | Auto Rename Tag            | formulahendry.auto-rename-tag       |
 | Tools     | Auto Close Tab             | formulahendry.auto-close-tag        |  
@@ -100,7 +109,7 @@
 [Índice☝](#índice)
 <hr />
 
-## Snippers
+## Snippets
 
 [Índice☝](#índice)
 <hr />
